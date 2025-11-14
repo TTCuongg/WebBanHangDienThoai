@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecPhone - Điện thoại thông minh chính hãng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span>📞 Hotline: 1900 1234</span>
+                <span>✉️ Email: support@tecphone.vn</span>
+            </div>
+            <div class="auth-links">
+                <a href="dangky.jsp">Đăng ký</a>
+                <a href="dangnhap.jsp">Đăng nhập</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header>
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">Tec<span>Phone</span></div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button>Tìm</button>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="cart-icon">
+                        🛒 Giỏ hàng
+                        <span class="cart-count">3</span>
+                    </div>
+                    <div class="user-icon">
+                        👤 Tài khoản
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav>
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="trangchu.jsp">Trang chủ</a></li>
+                    <li><a href="gioithieu.jsp">Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <a href="danhsachsanpham.jsp">Sản phẩm ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">iPhone</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Xiaomi</a></li>
+                            <li><a href="#">Oppo</a></li>
+                            <li><a href="#">Realme</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="chitietsanpham.jsp">Chi tiết sản phẩm</a></li>
+                    <li><a href="giohang.jsp">Giỏ hàng</a></li>
+                    <li><a href="thanhtoan.jsp">Thanh toán</a></li>
+                    <li><a href="vanchuyen.jsp">Vận chuyển</a></li>
+                    <li><a href="tintuc.jsp">Tin tức</a></li>
+                    <li><a href="lienhe.jsp">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Điện thoại thông minh chính hãng</h1>
+                <p>Khám phá những công nghệ mới nhất với giá tốt nhất</p>
+                <a href="danhsachsanpham.jsp" class="btn">Mua ngay</a>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="products-section">
+            <div class="container">
+                <h2 class="section-title">Sản phẩm nổi bật</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://via.placeholder.com/200" alt="iPhone 14 Pro">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">iPhone 14 Pro Max 128GB</div>
+                            <div class="product-price">28.990.000₫</div>
+                            <button class="add-to-cart">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://via.placeholder.com/200" alt="Samsung Galaxy S23">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">Samsung Galaxy S23 Ultra</div>
+                            <div class="product-price">24.990.000₫</div>
+                            <button class="add-to-cart">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://via.placeholder.com/200" alt="Xiaomi 13">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">Xiaomi 13 Pro 5G</div>
+                            <div class="product-price">18.990.000₫</div>
+                            <button class="add-to-cart">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://via.placeholder.com/200" alt="Oppo Find X5">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">Oppo Find X5 Pro 5G</div>
+                            <div class="product-price">16.990.000₫</div>
+                            <button class="add-to-cart">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - ĐÃ SỬA LẠI THÀNH HÀNG NGANG -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Về TecPhone</h3>
+                    <ul>
+                        <li><a href="gioithieu.jsp">Giới thiệu</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="vanchuyen.jsp">Phương thức vận chuyển</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Thông tin liên hệ</h3>
+                    <ul>
+                        <li>Địa chỉ: 123 Nguyễn Văn Linh, Quận 7, TP.HCM</li>
+                        <li>Điện thoại: 1900 1234</li>
+                        <li>Email: support@tecphone.vn</li>
+                        <li>Giờ làm việc: 8:00 - 22:00</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 TecPhone. Tất cả các quyền được bảo lưu.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript cho giỏ hàng
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            const cartCount = document.querySelector('.cart-count');
+            
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    let currentCount = parseInt(cartCount.textContent);
+                    cartCount.textContent = currentCount + 1;
+                    
+                    // Hiệu ứng thêm vào giỏ hàng
+                    this.textContent = 'Đã thêm!';
+                    this.style.backgroundColor = '#27ae60';
+                    
+                    setTimeout(() => {
+                        this.textContent = 'Thêm vào giỏ';
+                        this.style.backgroundColor = '#2c3e50';
+                    }, 1500);
+                });
+            });
+            
+            // Dropdown menu cho mobile
+            const dropdowns = document.querySelectorAll('.dropdown');
+            
+            dropdowns.forEach(dropdown => {
+                dropdown.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        const menu = this.querySelector('.dropdown-menu');
+                        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
